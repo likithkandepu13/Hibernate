@@ -1,0 +1,9 @@
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+   <class name="JFSDS25.JFSDS25_Hibernate.Employee" table="emp">
+      <id name="eid" column="eid" />
+      <property name="ename" column="ename"/>
+      <property name="esal" column="esal"/>
+   </class>
+</hibernate-mapping>
